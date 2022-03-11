@@ -1,9 +1,9 @@
 
 package com.cg.placementmgmt.service;
 
-        import com.cg.placementmanagement.entities.Placement;
-        import com.placementmanagement.repository.IPlacementRepository;
-        import com.placementmanagement.repository.IPlacementRepositoryImpl;
+        import com.cg.placementmgmt.entities.Placement;
+        import com.placementmgmt.repository.IPlacementRepository;
+        import com.placementmgmt.repository.IPlacementRepositoryImpl;
 
 public class IPlacementServiceImpl implements IPlacementService {
     public IPlacementServiceImpl() {
