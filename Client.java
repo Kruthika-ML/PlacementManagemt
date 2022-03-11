@@ -13,7 +13,7 @@ public class Client{
 	placement.setQualification("BE");
 	placement.setDate(LocalDate.now());
 	placement.setYear(2022);
-	placement.setPlacement(placement);
-}
+	placement.addPlacement(placement);
+	}
 }
 	
