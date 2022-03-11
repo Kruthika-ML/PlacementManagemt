@@ -1,6 +1,15 @@
+package com.placementmgmt.repository;
+
+import com.cg.placementmgmt.entities.Placement;
+
 public interface IPlacementRepository {
-    public placement addPlacement(Placement placement);
-    public placement updatePlacement(Placement placement);
-    public placement searchPlacement(long id);
-    public placement cancelPlacement(long id):boolean;
+	public abstract void addPlacement(Placement placement);
+
+	public abstract void updatePlacement(Placement placement);
+
+	public abstract Placement searchPlacement(int id);
+
+	public abstract void commitTransaction();
+
+	public abstract void beginTransaction();
 }
